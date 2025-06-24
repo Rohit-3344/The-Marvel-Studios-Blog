@@ -1,0 +1,281 @@
+@media only screen and (max-width: 480px) {
+
+    html {
+        scroll-behavior: smooth;
+        scroll-padding: 15rem;
+    }
+
+    body {
+        background-color: #6f74844f;
+    }
+
+    .navbar {
+        height: 54px;
+        width: 95vw;
+
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 29px;
+        cursor: pointer;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        border: none;
+        margin-left: 13em;
+    }
+
+    .navlist {
+        position: fixed;
+        top: 74px;
+        right: -100%;
+        /* hidden by default */
+        width: 44%;
+        height: 41vh;
+        background-color: #333;
+        flex-direction: column;
+        transition: right 0.3s ease-in-out;
+
+    }
+
+
+
+    .navlist.active {
+        right: 0;
+    }
+
+    .navlist li {
+        padding: 8px 77px;
+    }
+
+    .main {
+        width: 100vw;
+        height: 205px;
+        overflow: auto;
+        box-sizing: border-box;
+    }
+
+    .main h1 {
+        overflow: auto;
+        white-space: collapse;
+        font-size: 26px;
+
+    }
+
+    .iro {
+        flex-direction: column;
+        width: 404px;
+        height: auto;
+        margin-top: 62px;
+        margin-left: 32px;
+    }
+
+    .box1 {
+        margin: 40px 43px;
+        height: auto;
+        width: auto;
+    }
+
+    .box1 img {
+
+        width: 265px;
+        margin-left: -41px;
+    }
+
+    .video {
+        display: inline-block;
+        width: 265px;
+        margin-left: -41px;
+    }
+
+    .box2 {
+        margin: 40px 43px;
+        height: auto;
+        width: auto;
+    }
+
+    .box2 img {
+
+        width: 265px;
+        margin-left: -41px;
+    }
+
+    .box3 {
+        margin: 40px 43px;
+        height: auto;
+        width: auto;
+    }
+
+    .box3 img {
+
+        width: 265px;
+        margin-left: -41px;
+    }
+
+    .loki {
+        flex-direction: column;
+        width: 404px;
+        height: auto;
+        margin-top: 62px;
+        margin-left: 32px;
+    }
+
+    .box1 {
+        margin: 40px 43px;
+        height: auto;
+        width: auto;
+    }
+
+    .box1 img {
+
+        width: 265px;
+        margin-left: -41px;
+    }
+
+    .box2 {
+        margin: 40px 43px;
+        height: auto;
+        width: auto;
+    }
+
+    .box2 img {
+
+        width: 265px;
+        margin-left: -41px;
+    }
+
+    .box3 {
+        margin: 40px 43px;
+        height: auto;
+        width: auto;
+    }
+
+    .box3 img {
+
+        width: 265px;
+        margin-left: -41px;
+    }
+
+
+    .venom {
+        flex-direction: column;
+        width: 404px;
+        height: auto;
+        margin-top: 62px;
+        margin-left: 32px;
+    }
+
+    .box1 {
+        margin: 40px 43px;
+        height: auto;
+        width: auto;
+    }
+
+    .box1 img {
+
+        width: 265px;
+        margin-left: -41px;
+    }
+
+    .box2 {
+        margin: 40px 43px;
+        height: auto;
+        width: auto;
+    }
+
+    .box2 img {
+
+        width: 265px;
+        margin-left: -41px;
+    }
+
+    .box3 {
+        margin: 40px 43px;
+        height: auto;
+        width: auto;
+    }
+
+    .box3 img {
+
+        width: 265px;
+        margin-left: -41px;
+    }
+
+    .aboutme {
+        display: flex;
+        width: 404px;
+        height: auto;
+        margin-left: 32px;
+    }
+
+    .ab {
+        height: fit-content;
+    }
+
+    .contactme {
+        display: flex;
+        width: 404px;
+        margin-left: 32px;
+        height: auto;
+    }
+
+    .form {
+        height: 1114px;
+        width: 215px;
+    }
+
+    .form a {
+        color: blueviolet;
+        font-size: 20px;
+    }
+
+    .footer {
+        display: block;
+        width: 100vw;
+        height: 9vh;
+
+    }
+
+    .pa {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        padding-top: 27px;
+    }
+
+    .social-icon {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 23px;
+        color: #555;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+
+    .social-icon.insta {
+        color: #e1306c;
+
+    }
+
+    .social-icon.twitter {
+        color: #1DA1F2;
+
+    }
+
+    .social-icon.face {
+        color: #1877F2;
+
+    }
+
+    .social-icon.you {
+        color: #FF0000;
+
+    }
+
+}

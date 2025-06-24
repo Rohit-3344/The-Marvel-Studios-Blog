@@ -1,0 +1,217 @@
+/* @media only screen and (min-width: 1083px) {
+
+    html {
+        scroll-behavior: smooth;
+        scroll-padding: 14rem;
+    }
+
+    body {
+        background-color: #6f74844f;
+    }
+
+    .navbar {
+        height: 96px;
+        width: 98vw;
+
+    }
+
+    .navlist {
+        display: flex;
+    }
+
+    .navlist li {
+        padding: 0px 43px;
+        font-size: 25px;    
+    }
+}
+
+.main {
+    width: 100vw;
+    height: 205px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.main h1 {
+    overflow: auto;
+    white-space: collapse;
+    font-size: 26px;
+
+}
+
+.iro {
+    flex-direction: column;
+    width: 1037px;
+    height: auto;
+    margin-top: 62px;
+    margin-left: 114px;
+}
+
+.box1 {
+    margin: 47px 91px;
+    height: auto;
+}
+
+.box1 img {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.video {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.box2 {
+    margin: 47px 91px;
+    height: auto;
+}
+
+.box2 img {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.box3 {
+    margin: 47px 91px;
+    height: auto;
+}
+
+.box3 img {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.loki {
+    flex-direction: column;
+    width: 1037px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 114px;
+}
+
+.box1 {
+    margin: 47px 91px;
+    height: auto;
+}
+
+.box1 img {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+
+.box2 {
+    margin: 47px 91px;
+    height: auto;
+}
+
+.box2 img {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+
+.box3 {
+    margin: 47px 91px;
+    height: auto;
+}
+
+.box3 img {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+
+.venom {
+    flex-direction: column;
+    width: 1037px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 114px;
+}
+
+.box1 {
+    margin: 47px 91px;
+    height: auto;
+}
+
+.box1 img {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+
+.box2 {
+    margin: 47px 91px;
+    height: auto;
+}
+
+.box2 img {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.box3 {
+    margin: 47px 91px;
+    height: auto;
+}
+
+.box3 img {
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+.aboutme {
+    display: flex;
+    width: 1052px;
+    height: auto;
+    margin-left: 114px;
+}
+
+.ab {
+    height: fit-content;
+}
+
+.contactme {
+    display: flex;
+    width: 1052px;
+    margin-left: 114px;
+}
+
+.footer {
+    display: block;
+    width: 100vw;
+}
+
+.social-icons {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 27px;
+    font-size: 40px;
+
+
+}
+
+.social-icon.insta {
+    color: #e1306c;
+
+}
+
+.social-icon.twitter {
+    color: #1DA1F2;
+
+}
+
+.social-icon.face {
+    color: #1877F2;
+
+}
+
+.social-icon.you {
+    color: #FF0000;
+
+}
+
+ */

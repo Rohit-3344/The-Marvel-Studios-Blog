@@ -1,0 +1,235 @@
+@media only screen and (max-width: 768px) {
+
+    html {
+        scroll-behavior: smooth;
+        scroll-padding: 15rem;
+    }
+
+    body {
+        background-color: #6f74844f;
+    }
+
+    .navbar {
+        height: 71px;
+        width: 97vw;
+        background-color: #333;
+    }
+
+    .menu {
+        display: none;
+        list-style: none;
+        padding: 0;
+        background-color: #333;
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        width: 150px;
+    }
+
+    .menu li {
+        padding: 10px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .menu li:hover {
+        background-color: #555;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 29px;
+        cursor: pointer;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        border: none;
+        margin-left: 24em;
+    }
+
+
+    .navlist {
+        position: fixed;
+        top: 91px;
+        right: -100%;
+        /* hidden by default */
+        width: 44%;
+        height: 41vh;
+        background-color: #333;
+        flex-direction: column;
+        transition: right 0.3s ease-in-out;
+    }
+
+
+
+
+
+    .navlist.active {
+        right: 0;
+    }
+
+    .navlist li {
+        padding: 8px 135px;
+    }
+
+    /* .navlist li a:hover {
+        background-color: rgb(165, 174, 180);
+
+    } */
+
+    .main {
+        width: 100vw;
+        height: 293px;
+        overflow: auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main h1 {
+        overflow: auto;
+        white-space: collapse;
+        font-size: 26px;
+
+    }
+
+    .iro {
+        flex-direction: column;
+        width: 651px;
+        height: auto;
+        margin-top: 62px;
+        margin-left: 46px;
+    }
+
+    .box1 {
+        margin: 40px87px;
+        height: auto;
+        width: 432px;
+    }
+
+    .box2 {
+        margin: 40px87px;
+        height: auto;
+        width: 432px;
+    }
+
+    .box3 {
+        margin: 40px87px;
+        height: auto;
+        width: 432px;
+    }
+
+    .loki {
+        flex-direction: column;
+        width: 651px;
+        height: auto;
+        margin-top: 62px;
+        margin-left: 46px;
+    }
+
+    .box1 {
+        margin: 40px 87px;
+        height: auto;
+    }
+
+    .box2 {
+        margin: 40px 87px;
+        height: auto;
+    }
+
+    .box3 {
+        margin: 40px 87pxpx;
+        height: auto;
+    }
+
+
+    .venom {
+        flex-direction: column;
+        width: 651px;
+        height: auto;
+        margin-top: 62px;
+        margin-left: 46px;
+    }
+
+    .box1 {
+        margin: 40px 87px;
+        height: auto;
+    }
+
+    .box2 {
+        margin: 40px 87px;
+        height: auto;
+    }
+
+    .box3 {
+        margin: 40px 87px;
+        height: auto;
+    }
+
+    .aboutme {
+        display: flex;
+        width: 651px;
+        height: auto;
+        margin-left: 46px;
+    }
+
+    .ab {
+        height: fit-content;
+    }
+
+    .contactme {
+        display: flex;
+        width: 651px;
+        margin-left: 46px;
+        height: auto;
+    }
+
+    .form {
+        height: 840px;
+    }
+
+    .footer {
+        display: block;
+        width: 100vw;
+
+    }
+
+
+    .social-icons {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        padding-top: 27px;
+    }
+
+    .social-icon {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 40px;
+        color: #555;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+
+
+    .social-icon.insta {
+        color: #e1306c;
+
+    }
+
+    .social-icon.twitter {
+        color: #1DA1F2;
+
+    }
+
+    .social-icon.face {
+        color: #1877F2;
+
+    }
+
+    .social-icon.you {
+        color: #FF0000;
+
+    }
+
+}
